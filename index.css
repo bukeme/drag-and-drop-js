@@ -1,0 +1,40 @@
+:root {
+    --body-background: #26191b;
+    --list-background: rgba(88, 65, 83, 0.5);
+    --list-item-background: hsl(300, 18%, 62%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--body-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.list {
+    height: 550px;
+    width: 200px;
+    margin: 0 25px;
+    background-color: var(--list-background);
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0;
+    background-color: var(--list-item-background);
+    font-size: 19px;
+    font-weight: 500;
+}
